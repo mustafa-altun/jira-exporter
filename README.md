@@ -1,15 +1,13 @@
-# JIRA Issue Exporter (Excel + Attachments Downloader)
+# JIRA Excel Exporter (+ Attachments Downloader)
 
 This script extracts **JIRA issues**, including **comments, worklogs, descriptions, and attachments**, and exports them into an **Excel file**.  
 Additionally, it **downloads attachments** from JIRA and saves them locally.  
 
 📌 **Features:**
-- Extracts **Summary, Status, Created Date, Updated Date** from JIRA.
-- Saves **Descriptions in a separate Excel sheet**.
-- Exports **Comments, Worklogs, and Attachments** into separate sheets.
-- Downloads all **attachments** and calculates total disk space required.
-- **Interactive mode**: Asks whether to download attachments.
-- **Supports multi-line descriptions** (Newline characters are preserved in Excel).
+- Extracts **Summary, Descriptions, Comments, Status, Worklogs, Created Date, Updated Date and Attachments** from JIRA.
+- Exports **Descriptions, Comments, Worklogs, and Attachments** into separate sheets.
+- It downloads all **attachments** but calculates the total disk requirement before starting the download and waits for feedback from the user whether to continue the process or not. You can also continue without downloading the attachments.
+- **Supports multi-line descriptions and comments** (Newline characters are preserved in Excel).
 
 ---
 
